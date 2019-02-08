@@ -5,10 +5,13 @@ console.warn('hello ')
 console.error('hello')
 
 window.onload = function() {
-    alert("初始化加载");
+    // alert("初始化加载");
 }
 
-function onAlert(params) {
-    console.log(params);
-    alert(params);
+function onAlert(e) {
+    console.log(e);
+
+    var target = e.target;
+    console.log(target.innerText)
+    alert(target.innerText);
 }
