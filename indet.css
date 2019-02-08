@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#ffd8d9;
+	margin:1px auto 0px auto;
+	padding:0px;
+	text-align:center:;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+#conter{
+	width:700px;
+	text-align:center;
+	margin:0px auto;
+	}
+#banner{
+	width:700px;
+	height:120px;
+	background-image:url(images/img1/banner.jpg);
+	background-repeat:no-repeat
+	padding:0px;
+    }
+#daohang{
+	padding:0px;
+	}
+#daohang ul{
+	margin:0px;
+	padding:0px;
+	}
+#daohang ul li{
+	list-style:none;
+	float:left;
+	width:100px;
+	text-align:center;
+	}
+#daohang a{
+	display:block;
+	padding:9px 6px 11px 6px;
+	background-image:url(images/img1/button1.jpg);
+	}
+#daohang a:link ,a:visited{
+	color:#630002;
+	text-decoration:none;
+	}
+#daohang a:hover{
+	color:#fff;
+	text-decoration:underline;
+	background-image:url(images/img1/button1_bg.jpg) no-repeat;
+	}
+#left{
+	float:left;
+	width:180px;
+	background-image:url(images/img1/leftbottom.jpg) no-repeat bottom;
+	background-color:#fff;
+	margin:1px 0px 0px 0px;
+	}
+#denglu{
+	background-image:url(images/img1/login.jpg) no-repeat;
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:55px 0px 10px 0px;
+	}
+#denglu form{
+	margin:0px;
+	padding:0px;
+	}
+#denglu p{
+	text-align:left;
+	padding:5px 0px 0px 25px;
+	margin:0px;
+	}
+#denglu p input{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:12px;	
+	}
+#denglu from input.text{
+	border-bottom:1px solid #000000;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	padding:0px;
+	width:90px;
+	}
+#denglu from input.btn{
+	border:1px solid #333;
+	background-color:#3CF;
+	height:17px;
+	padding:0px;
+	}	
+#denglu a:link, #denglu p a:visited{
+	color:#0F0;
+	text-decoration:none;
+	}
+#denglu p a:hover{
+	color:#000088;
+	text-decoration:underline;
+	}
+#fu{
+	background-image:url(images/img1/category.jpg) no-repead;
+	padding:55px 0px 40px 0px;
+	}
+#fu h4{
+	margin:0px 18px 0px 18px;
+	padding:3px 0px 1px 5px;
+	background-color:#ffd1d1;
+	font-size:12px
+	}
+#fu ul{
+	list-style:none;
+	margin:0px;
+	padding:5px 22px 15px 22px; 
+	}
+#fu ul li{
+	padding:2px 0px 2px 16px;
+	border-bottom:1px dashed #999999;
+	background-image:url(images/img1/icon1.gif) no-repeat 5px 7px;
+	}
+#fu ul li a:link,#category ul li a:visited{
+	color:#000000;
+	text-decoration:none;
+	}
+#fu ul li a:hover{
+	color:#666666;
+	text-decoration:underline;
+	}
+#main{
+	float:left;
+	width:518px;
+	margin:1px 0px 0px 2px;
+	}
+#kuaixun{
+	background-image:url(images/img1/latest.jpg) no-repeat;
+	padding:35px 0px 0px 0px;
+	}
+#kuaixun img{
+	border:none;
+	padding-left:1px;
+	}
